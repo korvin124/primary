@@ -1,0 +1,106 @@
+body
+	font-size: 14px
+	width: 960px
+	positition: relative
+	line-height: 14px
+	margin: 0 auto
+*
+	box-sizing: border-box
+.content::after, .content::before
+.row_content::after, .row_content::before
+	content: ""
+	display: table
+	clear: both
+	padding: 0
+.page_name
+	position: absolute
+	right: 50px
+	top: 0px
+	color: #fff
+	font-size: 25px
+	text-transform: uppercase
+	padding: 10px 20px
+	border: 2px solid #fff
+.search-form
+	margin: 40px
+	padding: 20px
+	border: 2px solid #000
+	border-radius: 5px
+	display: inline-block
+	input
+		padding: 10px 20px
+		border-radius: 5px
+		border: 2px solid #000
+.navbar
+	width: 100%
+	background-color: black
+	height: 80px
+	position: relative
+	.navbar-nav
+		li
+			display: inline-block
+			padding: 10px 20px
+			margin-right: 20px
+			a
+				text-decoration: none
+				color: white
+				font-weight: 7oo
+ng-view
+	display: block
+	padding: 10px 20px
+.content
+	
+	position: relative
+	margin: 0 auto
+
+	.row_content
+		position: relative
+		margin-bottom: 20px
+		text-align: center
+		.pic-wrap
+			display: block
+			float: left
+			width: 33.3%
+			margin-bottom: 40px
+			position: relative
+			img
+				width: 80%
+				height: 300px
+				position: relative
+				border: 2px solid black
+				background: linear-gradient(to top, yellow 47%, blue 50% )
+				font-size: 20px
+				color: yellow
+				text-transform: uppercase
+				line-height: 2
+			.wrap-link
+				position: absolute
+				left: 0
+				right: 0
+				bottom: 30px
+				padding: 40px
+				.link
+					padding: 15px 25px
+					background-color: #000
+					color: #fff
+					font-size: 18px
+
+
+footer
+	position: fixed
+	bottom: 0
+	background: linear-gradient(to right top, grey,yellow ,green)
+	padding: 20px
+	width: 960px
+	.wrap_down
+		line-height: 2
+		.work-by
+			float: left
+			font-size: 20px
+			display: inline-block
+		.social
+			float: right
+			display: inline-block
+
+
+
